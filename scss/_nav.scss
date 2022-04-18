@@ -1,0 +1,41 @@
+nav{
+    margin: 48px 48px 48px;
+    display: flex;
+    justify-content: space-between;
+    .menuPrincipal{
+        color: white;
+        font-family: "Nunito", sans-serif;
+        font-size: 18px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 88px;
+        .logo{
+            width: 120px;
+            height: 40px;
+            background-color: white;
+        }
+        .menuLista{
+            ul{
+                list-style: none;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 48px;
+                li:hover{
+                    color: black;
+                    
+                }
+            }
+
+        }
+    }
+    .iconePerfil{
+        span{
+            font-size: 36px;
+            color: white;
+        }
+        span:hover{
+            color: black;
+        }
+    }
+}

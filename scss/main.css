@@ -1,0 +1,63 @@
+@import url(/Users/raquel/Desktop/landscapeII/scss/_reset.css);
+nav {
+  margin: 48px 48px 48px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+nav .menuPrincipal {
+  color: white;
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 88px;
+}
+
+nav .menuPrincipal .logo {
+  width: 120px;
+  height: 40px;
+  background-color: white;
+}
+
+nav .menuPrincipal .menuLista ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 48px;
+}
+
+nav .menuPrincipal .menuLista ul li:hover {
+  color: black;
+}
+
+nav .iconePerfil span {
+  font-size: 36px;
+  color: white;
+}
+
+nav .iconePerfil span:hover {
+  color: black;
+}
+
+body {
+  background-image: url(/img/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Nunito", sans-serif;
+}
+/*# sourceMappingURL=main.css.map */
