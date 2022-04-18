@@ -1,4 +1,12 @@
 @import url(/Users/raquel/Desktop/landscapeII/scss/_reset.css);
+.box {
+  width: 78vw;
+  margin: 100px auto;
+  padding: 100px;
+  background-color: #ffffff;
+  border-radius: 3px;
+}
+
 nav {
   margin: 48px 48px 48px;
   display: -webkit-box;
@@ -59,5 +67,111 @@ body {
   background-size: cover;
   background-attachment: fixed;
   font-family: "Nunito", sans-serif;
+}
+
+.firstText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: no-wrap;
+      flex-wrap: no-wrap;
+}
+
+.firstText .txt {
+  padding: 60px 40px 40px 40px;
+}
+
+.firstText .txt h1 {
+  font-family: "Caveat", "Nunito", sans-serif;
+  font-size: 48px;
+  margin-bottom: 48px;
+}
+
+.firstText .txt p {
+  font-size: 20px;
+}
+
+.firstText .txt .sinalPlus {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  margin: 64px 24px 0px 0px;
+}
+
+.firstText .txt .sinalPlus span {
+  font-size: 36px;
+  color: #756e6e;
+}
+
+.firstText .imgDup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 48px;
+}
+
+.firstText .imgDup img:nth-child(even) {
+  margin-top: 80px;
+}
+
+.iconList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+  margin-top: 48px;
+}
+
+.iconList div {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  grid-gap: 16px;
+}
+
+.secondText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 64px;
+}
+
+.secondText .imgSemMargin {
+  margin-left: -100px;
+}
+
+.secondText .imgSemMargin .menina {
+  position: relative;
+}
+
+.secondText .imgSemMargin .remedio {
+  position: absolute;
+  right: 700;
+  top: 1480px;
+}
+
+.secondText .txt2 {
+  padding: 48px;
+  margin-left: 48px;
+}
+
+.secondText .txt2 h3 {
+  font-size: 24px;
+  padding: 24px 0 24px 0;
+}
+
+.secondText .txt2 p {
+  font-size: 18px;
+  margin-top: 24px;
+  line-height: 32px;
 }
 /*# sourceMappingURL=main.css.map */

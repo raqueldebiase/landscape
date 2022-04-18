@@ -1,0 +1,29 @@
+
+.secondText{
+    display: flex;
+    margin-top: 64px;
+    .imgSemMargin{
+        margin-left: -100px;
+        .menina{
+            position: relative;
+        }
+        .remedio{
+            position: absolute;
+            right: 700;
+            top: 1480px;
+        }
+    }
+    .txt2{
+        padding: 48px;
+        margin-left: 48px;
+        h3{
+            font-size: 24px;
+            padding: 24px 0 24px 0;
+        }
+        p{
+            font-size: 18px;
+            margin-top: 24px;
+            line-height: 32px;
+        }
+    }
+}

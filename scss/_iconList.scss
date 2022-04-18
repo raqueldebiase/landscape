@@ -1,0 +1,12 @@
+.iconList{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-top: 48px;
+    div{
+        display: grid;
+        place-items: center;
+        grid-gap: 16px;
+    }
+}

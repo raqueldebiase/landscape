@@ -1,0 +1,31 @@
+.firstText{
+    display: flex;
+    flex-wrap: no-wrap;
+    .txt{
+        padding: 60px 40px 40px 40px;
+        h1{
+            font-family: "Caveat", "Nunito", sans-serif;
+            font-size: 48px;
+            margin-bottom: 48px;
+        }
+        p{
+            font-size: 20px;
+        }
+        .sinalPlus{
+            display: flex;
+            justify-content: start;
+            margin: 64px 24px 0px 0px;
+            span{
+                font-size: 36px;
+                color: rgb(117, 110, 110);
+            }
+        }
+    }
+    .imgDup{
+        display: flex;
+        gap: 48px;
+    }
+    .imgDup img:nth-child(even){
+        margin-top: 80px;
+    }
+}
