@@ -7,6 +7,15 @@
   border-radius: 3px;
 }
 
+@media screen and (max-width: 400px) {
+  .box {
+    overflow: hidden;
+    width: 100%;
+    margin: auto;
+    padding: 0px;
+  }
+}
+
 nav {
   margin: 48px 48px 48px;
   display: -webkit-box;
@@ -15,6 +24,12 @@ nav {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+@media screen and (max-width: 400px) {
+  nav {
+    margin: 20px 5px 40px 5px;
+  }
 }
 
 nav .menuPrincipal {
@@ -32,10 +47,26 @@ nav .menuPrincipal {
   gap: 88px;
 }
 
+@media screen and (max-width: 400px) {
+  nav .menuPrincipal {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
 nav .menuPrincipal .logo {
   width: 120px;
   height: 40px;
   background-color: white;
+}
+
+@media screen and (max-width: 400px) {
+  nav .menuPrincipal .menuLista {
+    display: none;
+  }
 }
 
 nav .menuPrincipal .menuLista ul {
@@ -77,8 +108,24 @@ body {
       flex-wrap: no-wrap;
 }
 
+@media screen and (max-width: 400px) {
+  .firstText {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
 .firstText .txt {
   padding: 60px 40px 40px 40px;
+}
+
+@media screen and (max-width: 400px) {
+  .firstText .txt {
+    padding: 20px;
+  }
 }
 
 .firstText .txt h1 {
@@ -87,8 +134,21 @@ body {
   margin-bottom: 48px;
 }
 
+@media screen and (max-width: 400px) {
+  .firstText .txt h1 {
+    text-align: center;
+    font-size: 42px;
+  }
+}
+
 .firstText .txt p {
   font-size: 20px;
+}
+
+@media screen and (max-width: 400px) {
+  .firstText .txt p {
+    padding: 10px;
+  }
 }
 
 .firstText .txt .sinalPlus {
@@ -101,9 +161,28 @@ body {
   margin: 64px 24px 0px 0px;
 }
 
+@media screen and (max-width: 400px) {
+  .firstText .txt .sinalPlus {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: right;
+        -ms-flex-pack: right;
+            justify-content: right;
+    margin: auto;
+    padding: 0;
+  }
+}
+
 .firstText .txt .sinalPlus span {
   font-size: 36px;
   color: #756e6e;
+}
+
+@media screen and (max-width: 400px) {
+  .firstText .txt .sinalPlus span {
+    font-size: 48px;
+  }
 }
 
 .firstText .imgDup {
@@ -111,6 +190,20 @@ body {
   display: -ms-flexbox;
   display: flex;
   gap: 48px;
+}
+
+@media screen and (max-width: 400px) {
+  .firstText .imgDup {
+    gap: 24px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: -40px;
+  }
+}
+
+.firstText .imgDup img {
+  width: 40%;
 }
 
 .firstText .imgDup img:nth-child(even) {
@@ -131,6 +224,17 @@ body {
   margin-top: 48px;
 }
 
+@media screen and (max-width: 400px) {
+  .iconList {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    padding: 5px;
+  }
+}
+
 .iconList div {
   display: -ms-grid;
   display: grid;
@@ -138,11 +242,34 @@ body {
   grid-gap: 16px;
 }
 
+@media screen and (max-width: 400px) {
+  .iconList div {
+    grid-gap: 24px;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .iconList div p {
+    font-size: 14px;
+    text-align: center;
+  }
+}
+
 .secondText {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-top: 64px;
+}
+
+@media screen and (max-width: 400px) {
+  .secondText {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
 }
 
 .secondText .imgSemMargin {
@@ -153,10 +280,24 @@ body {
   position: relative;
 }
 
+@media screen and (max-width: 400px) {
+  .secondText .imgSemMargin .menina {
+    width: 85%;
+  }
+}
+
 .secondText .imgSemMargin .remedio {
   position: absolute;
   right: 700;
   top: 1480px;
+}
+
+@media screen and (max-width: 400px) {
+  .secondText .imgSemMargin .remedio {
+    width: 50%;
+    right: 30;
+    top: 1780px;
+  }
 }
 
 .secondText .txt2 {
@@ -164,9 +305,23 @@ body {
   margin-left: 48px;
 }
 
+@media screen and (max-width: 400px) {
+  .secondText .txt2 {
+    padding: 24px;
+    margin: auto;
+  }
+}
+
 .secondText .txt2 h3 {
   font-size: 24px;
   padding: 24px 0 24px 0;
+}
+
+@media screen and (max-width: 400px) {
+  .secondText .txt2 h3 {
+    text-align: left;
+    margin-top: 32px;
+  }
 }
 
 .secondText .txt2 p {

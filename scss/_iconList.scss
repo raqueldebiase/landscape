@@ -4,9 +4,25 @@
     align-items: center;
     padding: 20px;
     margin-top: 48px;
+    @media screen and (max-width: 400px){
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        place-items: center;
+        padding: 5px;
+    }
     div{
         display: grid;
         place-items: center;
         grid-gap: 16px;
+        @media screen and (max-width: 400px){
+            grid-gap: 24px;
+            margin-bottom: 20px;
+        }
+        p{
+            @media screen and (max-width: 400px){
+                font-size: 14px;
+                text-align: center;
+            }
+        }
     }
 }

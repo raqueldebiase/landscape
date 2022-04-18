@@ -2,23 +2,43 @@
 .secondText{
     display: flex;
     margin-top: 64px;
+    @media screen and (max-width: 400px){
+        display: grid;
+        grid-template-columns: 1fr;
+    }
     .imgSemMargin{
         margin-left: -100px;
         .menina{
             position: relative;
+            @media screen and (max-width: 400px){
+                width: 85%;
+            }
         }
         .remedio{
             position: absolute;
             right: 700;
             top: 1480px;
+            @media screen and (max-width: 400px){
+                width: 50%;
+                right: 30;
+                top: 1780px;
+            }
         }
     }
     .txt2{
         padding: 48px;
         margin-left: 48px;
+        @media screen and (max-width: 400px){
+            padding: 24px;
+            margin: auto;
+        }
         h3{
             font-size: 24px;
             padding: 24px 0 24px 0;
+            @media screen and (max-width: 400px){
+                text-align: left;
+                margin-top: 32px;
+            }
         }
         p{
             font-size: 18px;
