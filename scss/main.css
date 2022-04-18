@@ -202,8 +202,10 @@ body {
   }
 }
 
-.firstText .imgDup img {
-  width: 40%;
+@media screen and (max-width: 400px) {
+  .firstText .imgDup img {
+    width: 40%;
+  }
 }
 
 .firstText .imgDup img:nth-child(even) {
