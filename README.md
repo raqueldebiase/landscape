@@ -2,7 +2,7 @@
 
 Exemplo de landscape a partir da utilização do CSS Grid Layout + CSS Flex Box. 
 
-Técnologias utilizadas: HTML, SASS/CSS, Figma.
+Tecnologias utilizadas: HTML, SASS/CSS, Figma.
 
 Link para exemplo: 
 https://mellifluous-salamander-a6dd79.netlify.app/
