@@ -8,6 +8,7 @@ Link para exemplo:
 https://mellifluous-salamander-a6dd79.netlify.app/
 
 
-![Frame 1](https://user-images.githubusercontent.com/94414829/165055895-c461b2bb-a653-4bd2-a89f-2c8323ff57b6.svg)
+<img width="6" alt="Captura de Tela 2022-04-25 às 19 12 29" src="https://user-images.githubusercontent.com/94414829/165150562-1c68aa03-8eb2-4060-b815-287b790ab181.png">
+
 
 
