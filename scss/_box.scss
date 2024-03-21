@@ -4,6 +4,9 @@
     padding: 100px;
     background-color: #ffffff;
     border-radius: 3px;
+    @media screen and (max-width: 960px){
+        padding: 50px;
+    }
     @media screen and (max-width: 400px){
         overflow: hidden;
         width: 100%;
