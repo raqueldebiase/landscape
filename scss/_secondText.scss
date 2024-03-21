@@ -3,8 +3,10 @@
     display: grid;
     grid-template-columns: 50% 50%;
     margin-top: 64px;
-
-    @media screen and (max-width: 400px){
+    @media screen and (max-width: 960px){
+        grid-template-columns: 35% 65%;
+    }
+    @media screen and (max-width: 769px){
         display: grid;
         grid-template-columns: 1fr;
     }
@@ -21,9 +23,9 @@
         }
     }
     .txt2{
-        padding: 0px 0px 0px 24px;
-        @media screen and (max-width: 1350px){
-            padding-left: 80px;
+        margin-top: 75px;
+        @media screen and (max-width: 1260px){
+            margin-top: 0px;
 
         }
         @media screen and (max-width: 996px){

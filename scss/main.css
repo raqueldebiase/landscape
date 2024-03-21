@@ -206,7 +206,12 @@ body {
   grid-template-columns: 50% 50%;
   margin-top: 64px;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 960px) {
+  .secondText {
+    grid-template-columns: 35% 65%;
+  }
+}
+@media screen and (max-width: 769px) {
   .secondText {
     display: grid;
     grid-template-columns: 1fr;
@@ -229,11 +234,11 @@ body {
   }
 }
 .secondText .txt2 {
-  padding: 0px 0px 0px 24px;
+  margin-top: 75px;
 }
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 1260px) {
   .secondText .txt2 {
-    padding-left: 80px;
+    margin-top: 0px;
   }
 }
 @media screen and (max-width: 996px) {
