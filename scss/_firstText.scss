@@ -47,12 +47,19 @@
     .imgDup{
         display: flex;
         gap: 48px;
+        @media screen and (max-width: 960px){
+            gap: 20px;
+            
+        }
         @media screen and (max-width: 400px){
             gap: 24px;
             justify-content: center;
             margin-top: -40px;
         }
         img{
+            @media screen and (max-width: 960px){
+                width: 65%;
+            }
             @media screen and (max-width: 400px){
                 width: 40%;
             }

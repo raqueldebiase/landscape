@@ -152,11 +152,21 @@ body {
   display: flex;
   gap: 48px;
 }
+@media screen and (max-width: 960px) {
+  .firstText .imgDup {
+    gap: 20px;
+  }
+}
 @media screen and (max-width: 400px) {
   .firstText .imgDup {
     gap: 24px;
     justify-content: center;
     margin-top: -40px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .firstText .imgDup img {
+    width: 65%;
   }
 }
 @media screen and (max-width: 400px) {
