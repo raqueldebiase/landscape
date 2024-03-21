@@ -13,7 +13,7 @@
 }
 @media screen and (max-width: 960px) {
   .box {
-    padding: 50px;
+    padding: 49px;
   }
 }
 @media screen and (max-width: 640px) {
@@ -108,6 +108,7 @@ body {
   background-size: cover;
   background-attachment: fixed;
   font-family: "Nunito", sans-serif;
+  margin-bottom: 36px;
 }
 .firstText {
   display: grid;
@@ -207,6 +208,11 @@ body {
     width: 75%;
   }
 }
+@media screen and (max-width: 480px) {
+  .firstText .imgDup img {
+    width: 40%;
+  }
+}
 .firstText .imgDup img:nth-child(even) {
   margin-top: 80px;
 }
@@ -279,7 +285,17 @@ body {
 }
 @media screen and (max-width: 960px) {
   .secondText .imgSemMargin {
-    margin-left: -50%;
+    margin-left: -19%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .secondText .imgSemMargin {
+    margin-left: -49%;
+  }
+}
+@media screen and (max-width: 550px) {
+  .secondText .imgSemMargin {
+    margin-left: -6%;
   }
 }
 @media screen and (max-width: 640px) {

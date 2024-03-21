@@ -72,6 +72,9 @@
             @media screen and (max-width: 767px){
                 width: 75%;
             }
+            @media screen and (max-width: 480px){
+                width: 40%;
+            }
         }
     }
     .imgDup img:nth-child(even){

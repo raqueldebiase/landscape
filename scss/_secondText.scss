@@ -13,7 +13,13 @@
     .imgSemMargin{
         margin-left: -100px;
         @media screen and (max-width: 960px){
-            margin-left: -50%;
+            margin-left: -19%;
+        }
+        @media screen and (max-width: 767px){
+            margin-left: -49%;
+        }
+        @media screen and (max-width: 550px){
+            margin-left: -6%;
         }
         @media screen and (max-width: 640px){
             margin-left: -5%;
