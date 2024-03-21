@@ -228,23 +228,10 @@ body {
   left: 240px;
   bottom: -75px;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1120px) {
   .secondText .imgSemMargin .remedio {
     left: 160px;
-    bottom: 0;
-  }
-}
-@media screen and (max-width: 996px) {
-  .secondText .imgSemMargin .remedio {
-    left: 160px;
-    bottom: 180px;
-  }
-}
-@media screen and (max-width: 400px) {
-  .secondText .imgSemMargin .remedio {
-    width: 50%;
-    right: 30;
-    top: 1780px;
+    bottom: 65px;
   }
 }
 .secondText .txt2 {

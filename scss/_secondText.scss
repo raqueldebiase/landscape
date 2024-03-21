@@ -19,19 +19,11 @@
             position: absolute;
             left: 240px;
             bottom: -75px;
-            @media screen and (max-width: 1000px){
+            @media screen and (max-width: 1120px){
                 left: 160px;
-                bottom: 0;
+                bottom: 65px;
             }
-            @media screen and (max-width: 996px){
-                left: 160px;
-                bottom: 180px;
-            }
-            @media screen and (max-width: 400px){
-                width: 50%;
-                right: 30;
-                top: 1780px;
-            }
+
         }
     }
     .txt2{
