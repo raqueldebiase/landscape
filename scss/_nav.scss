@@ -38,6 +38,8 @@ nav{
         }
     }
     .iconePerfil{
+        display: flex;
+        align-items: center;
         span{
             font-size: 36px;
             color: white;
