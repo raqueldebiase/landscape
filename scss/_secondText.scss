@@ -14,22 +14,23 @@
             @media screen and (max-width: 400px){
                 width: 85%;
             }
+            .menina:after{
+                content: url('../img/remedio.svg');
+                position: absolute;
+                left: 240px;
+                bottom: -75px;
+                @media screen and (max-width: 1120px){
+                    left: 160px;
+                    bottom: 65px;
+                }
+                @media screen and (max-width: 1080px){
+                    left: 180px;
+                    bottom: 120px;
+                }
+    
+            }
         }
-        .menina:after{
-            content: url('../img/remedio.svg');
-            position: absolute;
-            left: 240px;
-            bottom: -75px;
-            @media screen and (max-width: 1120px){
-                left: 160px;
-                bottom: 65px;
-            }
-            @media screen and (max-width: 1080px){
-                left: 180px;
-                bottom: 120px;
-            }
 
-        }
     }
     .txt2{
         padding: 0px 0px 0px 24px;
