@@ -6,7 +6,7 @@
 
 .box {
   width: 78vw;
-  margin: 100px auto;
+  margin: auto;
   padding: 100px;
   background-color: #ffffff;
   border-radius: 3px;
@@ -49,6 +49,11 @@ nav .menuPrincipal {
   align-items: center;
   gap: 88px;
 }
+@media screen and (max-width: 640px) {
+  nav .menuPrincipal {
+    gap: 44px;
+  }
+}
 @media screen and (max-width: 400px) {
   nav .menuPrincipal {
     display: flex;
@@ -83,6 +88,11 @@ nav .menuPrincipal .menuLista ul li:hover {
 nav .iconePerfil {
   display: flex;
   align-items: center;
+}
+@media screen and (max-width: 640px) {
+  nav .iconePerfil {
+    align-items: start;
+  }
 }
 nav .iconePerfil span {
   font-size: 36px;
@@ -213,12 +223,11 @@ body {
     margin-top: 0px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 640px) {
   .iconList {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    place-items: center;
-    padding: 5px;
+    gap: 35px;
   }
 }
 .iconList div {
@@ -269,6 +278,11 @@ body {
   margin-left: -100px;
 }
 @media screen and (max-width: 960px) {
+  .secondText .imgSemMargin {
+    margin-left: -50%;
+  }
+}
+@media screen and (max-width: 640px) {
   .secondText .imgSemMargin {
     margin-left: -50%;
   }

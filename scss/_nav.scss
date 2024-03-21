@@ -13,6 +13,9 @@ nav{
         flex-wrap: wrap;
         align-items: center;
         gap: 88px;
+        @media screen and (max-width: 640px){
+            gap: 44px;
+        }
         @media screen and (max-width: 400px){
             display: flex;
             justify-content: space-around;
@@ -45,6 +48,9 @@ nav{
     .iconePerfil{
         display: flex;
         align-items: center;
+        @media screen and (max-width: 640px){
+            align-items: start;
+        }
         span{
             font-size: 36px;
             color: white;
