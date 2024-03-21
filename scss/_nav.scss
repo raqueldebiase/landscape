@@ -20,7 +20,7 @@ nav{
         }
         @media screen and (max-width: 400px){
             display: flex;
-            justify-content: space-around;
+            justify-content: flex-start;
             gap: 36px;
         }
         .logo{

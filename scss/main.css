@@ -59,7 +59,7 @@ nav .menuPrincipal {
 @media screen and (max-width: 400px) {
   nav .menuPrincipal {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     gap: 36px;
   }
 }
