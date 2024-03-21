@@ -285,12 +285,12 @@ body {
 }
 @media screen and (max-width: 960px) {
   .secondText .imgSemMargin {
-    margin-left: -19%;
+    margin-left: -49%;
   }
 }
 @media screen and (max-width: 767px) {
   .secondText .imgSemMargin {
-    margin-left: -49%;
+    margin-left: -9%;
   }
 }
 @media screen and (max-width: 550px) {
