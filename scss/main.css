@@ -228,6 +228,12 @@ body {
   left: 240px;
   bottom: -75px;
 }
+@media screen and (max-width: 1120px) {
+  .secondText .imgSemMargin .remedio {
+    left: 160px;
+    bottom: 0;
+  }
+}
 @media screen and (max-width: 996px) {
   .secondText .imgSemMargin .remedio {
     left: 160px;
@@ -246,7 +252,7 @@ body {
 }
 @media screen and (max-width: 1350px) {
   .secondText .txt2 {
-    padding: 80px;
+    padding-left: 80px;
   }
 }
 @media screen and (max-width: 996px) {

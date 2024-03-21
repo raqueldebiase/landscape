@@ -19,6 +19,10 @@
             position: absolute;
             left: 240px;
             bottom: -75px;
+            @media screen and (max-width: 1120px){
+                left: 160px;
+                bottom: 0;
+            }
             @media screen and (max-width: 996px){
                 left: 160px;
                 bottom: 180px;
@@ -33,7 +37,7 @@
     .txt2{
         padding: 0px 0px 0px 24px;
         @media screen and (max-width: 1350px){
-            padding: 80px;
+            padding-left: 80px;
 
         }
         @media screen and (max-width: 996px){
