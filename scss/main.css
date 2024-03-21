@@ -16,6 +16,11 @@
     padding: 50px;
   }
 }
+@media screen and (max-width: 640px) {
+  .box {
+    padding: 24px;
+  }
+}
 @media screen and (max-width: 400px) {
   .box {
     overflow: hidden;
@@ -97,6 +102,13 @@ body {
 .firstText {
   display: grid;
   grid-template-columns: 50% 50%;
+  place-items: center;
+}
+@media screen and (max-width: 767px) {
+  .firstText {
+    grid-template-columns: 1fr;
+    margin-bottom: 24px;
+  }
 }
 @media screen and (max-width: 400px) {
   .firstText {
@@ -106,6 +118,11 @@ body {
 }
 .firstText .txt {
   padding: 60px 40px 40px 40px;
+}
+@media screen and (max-width: 767px) {
+  .firstText .txt {
+    padding: 0px;
+  }
 }
 @media screen and (max-width: 400px) {
   .firstText .txt {
@@ -175,9 +192,9 @@ body {
     width: 40%;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 767px) {
   .firstText .imgDup img {
-    width: 40%;
+    width: 75%;
   }
 }
 .firstText .imgDup img:nth-child(even) {
@@ -251,12 +268,22 @@ body {
 .secondText .imgSemMargin {
   margin-left: -100px;
 }
+@media screen and (max-width: 960px) {
+  .secondText .imgSemMargin {
+    margin-left: -50%;
+  }
+}
 .secondText .imgSemMargin .menina {
   position: relative;
 }
 @media screen and (max-width: 1210px) {
   .secondText .imgSemMargin .menina {
     width: 85%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .secondText .imgSemMargin .menina {
+    width: 60%;
   }
 }
 @media screen and (max-width: 400px) {

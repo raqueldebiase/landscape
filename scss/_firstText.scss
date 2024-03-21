@@ -1,12 +1,20 @@
 .firstText{
     display: grid;
     grid-template-columns: 50% 50%;
+    place-items: center;
+    @media screen and (max-width: 767px){
+        grid-template-columns: 1fr;
+        margin-bottom: 24px;
+    }
     @media screen and (max-width: 400px){
         display: flex;
         flex-wrap: wrap;
     }
     .txt{
         padding: 60px 40px 40px 40px;
+        @media screen and (max-width: 767px){
+            padding: 0px;
+        }
         @media screen and (max-width: 400px){
             padding: 20px;
         }
@@ -61,8 +69,8 @@
             @media screen and (max-width: 960px){
                 width: 40%;
             }
-            @media screen and (max-width: 400px){
-                width: 40%;
+            @media screen and (max-width: 767px){
+                width: 75%;
             }
         }
     }
