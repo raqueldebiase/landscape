@@ -1,8 +1,9 @@
 
 .secondText{
-    display: flex;
+    display: grid;
+    grid-template-columns: 50% 50%;
     margin-top: 64px;
-    position: relative;
+
     @media screen and (max-width: 400px){
         display: grid;
         grid-template-columns: 1fr;
@@ -11,26 +12,13 @@
         margin-left: -100px;
         .menina{
             position: relative;
+            @media screen and (max-width: 1210px){
+                width: 85%;
+            }
             @media screen and (max-width: 400px){
                 width: 85%;
             }
         }
-        .menina::after{
-            content: url('../img/remedio.svg');
-            position: absolute;
-            left: 240px;
-            bottom: -75px;
-            @media screen and (max-width: 1120px){
-                left: 160px;
-                bottom: 65px;
-            }
-            @media screen and (max-width: 1080px){
-                left: 180px;
-                bottom: 120px;
-            }
-
-        }
-
     }
     .txt2{
         padding: 0px 0px 0px 24px;

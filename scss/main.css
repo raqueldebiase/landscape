@@ -202,9 +202,9 @@ body {
 }
 
 .secondText {
-  display: flex;
+  display: grid;
+  grid-template-columns: 50% 50%;
   margin-top: 64px;
-  position: relative;
 }
 @media screen and (max-width: 400px) {
   .secondText {
@@ -218,27 +218,14 @@ body {
 .secondText .imgSemMargin .menina {
   position: relative;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 1210px) {
   .secondText .imgSemMargin .menina {
     width: 85%;
   }
 }
-.secondText .imgSemMargin .menina::after {
-  content: url("../img/remedio.svg");
-  position: absolute;
-  left: 240px;
-  bottom: -75px;
-}
-@media screen and (max-width: 1120px) {
-  .secondText .imgSemMargin .menina::after {
-    left: 160px;
-    bottom: 65px;
-  }
-}
-@media screen and (max-width: 1080px) {
-  .secondText .imgSemMargin .menina::after {
-    left: 180px;
-    bottom: 120px;
+@media screen and (max-width: 400px) {
+  .secondText .imgSemMargin .menina {
+    width: 85%;
   }
 }
 .secondText .txt2 {
