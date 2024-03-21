@@ -234,6 +234,12 @@ body {
     bottom: 65px;
   }
 }
+@media screen and (max-width: 1080px) {
+  .secondText .imgSemMargin .remedio {
+    left: 180px;
+    bottom: 120px;
+  }
+}
 .secondText .txt2 {
   padding: 0px 0px 0px 24px;
 }
