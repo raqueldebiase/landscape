@@ -17,8 +17,12 @@
         }
         .remedio{
             position: absolute;
-            right: 700;
-            top: 1480px;
+            left: 240px;
+            bottom: -75px;
+            @media screen and (max-width: 996px){
+                left: 160px;
+                bottom: 180px;
+            }
             @media screen and (max-width: 400px){
                 width: 50%;
                 right: 30;
