@@ -37,7 +37,7 @@ nav {
 }
 @media screen and (max-width: 400px) {
   nav {
-    margin: 20px 5px 40px 5px;
+    padding: 16px;
   }
 }
 nav .menuPrincipal {
@@ -64,11 +64,6 @@ nav .menuPrincipal .logo {
   width: 120px;
   height: 40px;
   background-color: white;
-}
-@media screen and (max-width: 400px) {
-  nav .menuPrincipal .menuLista {
-    display: none;
-  }
 }
 nav .menuPrincipal .menuLista ul {
   list-style: none;

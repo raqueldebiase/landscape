@@ -3,7 +3,7 @@ nav{
     display: flex;
     justify-content: space-between;
     @media screen and (max-width: 400px){
-        margin: 20px 5px 40px 5px;
+        padding: 16px;
     }
     .menuPrincipal{
         color: white;
@@ -26,10 +26,6 @@ nav{
             background-color: white;
         }
         .menuLista{
-
-            @media screen and (max-width: 400px){
-                display: none;
-            }
             ul{
                 list-style: none;
                 display: flex;
