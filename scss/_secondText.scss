@@ -15,7 +15,8 @@
                 width: 85%;
             }
         }
-        .remedio{
+        .menina::after{
+            content: url('../img/remedio.svg');
             position: absolute;
             left: 240px;
             bottom: -75px;
