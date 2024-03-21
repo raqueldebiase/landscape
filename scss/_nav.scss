@@ -1,9 +1,11 @@
 nav{
-    margin: 48px 48px 48px;
+    margin: 48px;
     display: flex;
     justify-content: space-between;
     @media screen and (max-width: 400px){
         padding: 16px;
+        margin: 0;
+        justify-content: flex-start;
     }
     .menuPrincipal{
         color: white;
@@ -19,6 +21,7 @@ nav{
         @media screen and (max-width: 400px){
             display: flex;
             justify-content: space-around;
+            gap: 36px;
         }
         .logo{
             width: 120px;
@@ -34,6 +37,10 @@ nav{
                 @media screen and (max-width: 996px){
                     gap: 24px;
                     font-size: 14px;
+                }
+                @media screen and (max-width: 996px){
+
+                    font-size: 12px;
                 }
                 li:hover{
                     color: black;

@@ -31,13 +31,15 @@
 }
 
 nav {
-  margin: 48px 48px 48px;
+  margin: 48px;
   display: flex;
   justify-content: space-between;
 }
 @media screen and (max-width: 400px) {
   nav {
     padding: 16px;
+    margin: 0;
+    justify-content: flex-start;
   }
 }
 nav .menuPrincipal {
@@ -58,6 +60,7 @@ nav .menuPrincipal {
   nav .menuPrincipal {
     display: flex;
     justify-content: space-around;
+    gap: 36px;
   }
 }
 nav .menuPrincipal .logo {
@@ -75,6 +78,11 @@ nav .menuPrincipal .menuLista ul {
   nav .menuPrincipal .menuLista ul {
     gap: 24px;
     font-size: 14px;
+  }
+}
+@media screen and (max-width: 996px) {
+  nav .menuPrincipal .menuLista ul {
+    font-size: 12px;
   }
 }
 nav .menuPrincipal .menuLista ul li:hover {
