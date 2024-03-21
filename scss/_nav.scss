@@ -23,6 +23,7 @@ nav{
             background-color: white;
         }
         .menuLista{
+
             @media screen and (max-width: 400px){
                 display: none;
             }
@@ -31,6 +32,10 @@ nav{
                 display: flex;
                 flex-wrap: wrap;
                 gap: 48px;
+                @media screen and (max-width: 996px){
+                    gap: 24px;
+                    font-size: 14px;
+                }
                 li:hover{
                     color: black;
                 }

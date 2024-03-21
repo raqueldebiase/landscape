@@ -61,6 +61,12 @@ nav .menuPrincipal .menuLista ul {
   flex-wrap: wrap;
   gap: 48px;
 }
+@media screen and (max-width: 996px) {
+  nav .menuPrincipal .menuLista ul {
+    gap: 24px;
+    font-size: 14px;
+  }
+}
 nav .menuPrincipal .menuLista ul li:hover {
   color: black;
 }
@@ -198,6 +204,7 @@ body {
 .secondText {
   display: flex;
   margin-top: 64px;
+  position: relative;
 }
 @media screen and (max-width: 400px) {
   .secondText {
@@ -229,8 +236,7 @@ body {
   }
 }
 .secondText .txt2 {
-  padding: 48px;
-  margin-left: 48px;
+  padding: 0px 0px 0px 24px;
 }
 @media screen and (max-width: 400px) {
   .secondText .txt2 {
