@@ -175,6 +175,11 @@ body {
   padding: 20px;
   margin-top: 48px;
 }
+@media screen and (max-width: 960px) {
+  .iconList {
+    margin-top: 0px;
+  }
+}
 @media screen and (max-width: 400px) {
   .iconList {
     display: grid;
@@ -192,6 +197,16 @@ body {
   .iconList div {
     grid-gap: 24px;
     margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .iconList div img {
+    width: 35%;
+  }
+}
+@media screen and (max-width: 960px) {
+  .iconList div p {
+    font-size: 12px;
   }
 }
 @media screen and (max-width: 400px) {
